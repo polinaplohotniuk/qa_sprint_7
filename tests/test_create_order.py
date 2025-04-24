@@ -3,7 +3,7 @@ import pytest
 import requests
 import allure
 from urls import MAIN_URL, CREATE_ORDER_URL
-from data import OrderData  # Предполагаем, что OrderData содержит данные для заказов
+from data import OrderData
 
 # класс, содержащий тесты для создания заказов
 class TestCreateOrder:
